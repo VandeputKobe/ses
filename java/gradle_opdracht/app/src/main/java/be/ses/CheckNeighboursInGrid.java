@@ -16,7 +16,6 @@ public class CheckNeighboursInGrid {
 *@param indexToCheck - Specifies the index of the element which neighbours that need to be checked
 */
 public static Iterable<Integer> getSameNeighboursIds(Iterable<Integer> grid,int width, int height, int indexToCheck){
-    // TODO write your code below so you return the correct result
     ArrayList<Integer> result = new ArrayList<>();
     ArrayList<Integer> gridList = new ArrayList<>();
 
